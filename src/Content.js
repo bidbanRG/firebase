@@ -25,6 +25,9 @@ function Content() {
   return (
     <div className = "content">
          <h2> content </h2>
+<marquee style = {{width:"60%", direction:"left", height:"100px"}}>
+  This is a sample scrolling text that has scrolls texts to left.
+</marquee>
         <h3 > Share your words </h3>
      
  <input ref = {name} placeholder = "Name..." />      
